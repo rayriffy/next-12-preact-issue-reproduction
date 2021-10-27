@@ -10,7 +10,7 @@ const Page: NextPage = () => {
     <div className="pt-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
       <h1 className="text-2xl font-bold">Hello</h1>
       <Memo />
-      <p className="text-gray-700 pt-4">{counter}</p>
+      <p className="text-gray-700 pt-4">{counter.count}</p>
       <div className="mt-4">
         <button
           type="button"
